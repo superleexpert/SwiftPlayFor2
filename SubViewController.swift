@@ -48,7 +48,7 @@ class SubViewController: UIViewController {
                 self.value = 0
         }
     
-        println("Result name: \(myName)'s age: \(self.value)")
+        print("Result name: \(myName)'s age: \(self.value)")
     }
 
     override func didReceiveMemoryWarning() {

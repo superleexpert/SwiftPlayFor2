@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let subViewController = SubViewController.sharedInstance()
         subViewController.view.frame = CGRectMake(50, 50, 100, 200)
         subViewController.view.backgroundColor = UIColor.blueColor()
-        println("Sub property name: \(subViewController.name) and age: \(subViewController.age) or \(SubViewController.CircleAge)")
+        print("Sub property name: \(subViewController.name) and age: \(subViewController.age) or \(SubViewController.CircleAge)")
         self.view.addSubview(subViewController.view)
         
     }
